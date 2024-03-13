@@ -10,13 +10,14 @@ body {
   justify-content: center;
   height: 100vh;
   max-width: 90vw;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .App {
   width: 60vw;
   border-radius: 30px;
   padding: 10px;
+  padding-bottom: 10vh;
   background-color: #fff;
   position: relative;
 }
