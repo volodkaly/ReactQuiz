@@ -4,28 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>React Quiz App</title>
-    <!-- React and ReactDOM CDN links -->
     <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <!-- Babel standalone to compile JSX in the browser -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <!-- Your styles can be included here -->
     <link href="index.css" rel="stylesheet" />
   </head>
   <body>
     <div id="root"></div>
     <script type="text/babel">
-      // Your App and other components' code will go here
-      // ...
-
-      // Replace import statements with const declarations
-      // For example, replace "import React from 'react';" with "const React = window.React;"
       const React = window.React;
       const ReactDOM = window.ReactDOM;
 
-      // Copy the contents of your App.js here
-      // Remove "import './index.scss';" and "import { useState } from 'react';"
-      // Declare useState using React.useState
       const { useState } = React;
 
       const questions = [
@@ -145,7 +134,6 @@
         );
       }
 
-      // Then the contents of your index.js, modified slightly:
       const root = ReactDOM.createRoot(document.getElementById("root"));
       root.render(
         <React.StrictMode>
