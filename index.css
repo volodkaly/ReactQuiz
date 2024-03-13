@@ -9,10 +9,12 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  max-width: 90vw;
 }
 
 .App {
   width: 500px;
+  max-width: 60vw;
   border-radius: 30px;
   padding: 40px;
   background-color: #fff;
