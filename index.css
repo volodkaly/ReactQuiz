@@ -14,9 +14,7 @@ body {
 
 .App {
   min-width: 80vw;
-  width: 90vw;
   border-radius: 30px;
-  margin: 5%;
   background-color: #fff;
   position: relative;
 }
