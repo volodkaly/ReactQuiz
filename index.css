@@ -8,13 +8,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  max-width: 90vw;
   font-size: 12px;
 }
 
 .App {
-  width: 60vw;
+  width: 90vw;
   border-radius: 30px;
   padding: 20px;
   padding-bottom: 10vh;
