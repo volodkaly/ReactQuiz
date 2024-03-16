@@ -9,9 +9,11 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 12px;
+  text-align: center;
 }
 
 .App {
+  min-width: 80vw;
   width: 90vw;
   border-radius: 30px;
   padding: 20px;
@@ -77,12 +79,13 @@ body {
   z-index: 1;
 }
 .App h1 {
+  text-align: center;
   font-size: 12px;
   margin: 0;
 }
 .App ul {
   list-style: none;
-  padding: 10px;
+  padding: 5px;
   margin: 10px;
 }
 .App ul li {
