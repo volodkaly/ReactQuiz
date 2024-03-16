@@ -16,8 +16,7 @@ body {
   min-width: 80vw;
   width: 90vw;
   border-radius: 30px;
-  padding: 20px;
-  padding-bottom: 10vh;
+  margin: 20px;
   background-color: #fff;
   position: relative;
 }
