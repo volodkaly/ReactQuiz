@@ -21,13 +21,18 @@ body {
 .App .result {
   text-align: center;
 }
-.App .result button {
+
+h2{
+margin-top: 2vh;
+}
+
+button {
   font-weight: bold;
   font-family: "Nunito", sans-serif;
   border-radius: 30px;
   border: 0;
   padding: 15px 30px;
-  font-size: 14px;
+  font-size: 16px;
   background-color: #f00067;
   color: #fff;
   margin-top: 20px;
@@ -101,13 +106,17 @@ body {
   text-align: center;
 }
 
+h2{
+margin-top: 2vh;
+}
+
 button {
   font-weight: bold;
   font-family: "Nunito", sans-serif;
   border-radius: 30px;
   border: 0;
   padding: 15px 30px;
-  font-size: 14px;
+  font-size: 18px;
   background-color: #f00067;
   color: #fff;
   margin-top: 20px;
@@ -115,18 +124,6 @@ button {
   cursor: pointer;
 }
   
-.App .result button {
-  font-weight: bold;
-  font-family: "Nunito", sans-serif;
-  border-radius: 30px;
-  border: 0;
-  padding: 15px 30px;
-  font-size: 14px;
-  background-color: #f00067;
-  color: #fff;
-  margin-top: 20px;
-  cursor: pointer;
-}
 .App .result h2 {
   margin-bottom: 0;
 }
