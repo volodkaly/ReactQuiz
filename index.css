@@ -17,6 +17,7 @@ body {
   border-radius: 10px;
   background-color: #fff;
   position: relative;
+  margin-top: 5vh;
 }
 .App .result {
   text-align: center;
@@ -36,6 +37,7 @@ button {
   background-color: #f00067;
   color: #fff;
   margin-top: 20px;
+  margin-bottom: 20px;
   cursor: pointer;
 }
 .App .result h2 {
@@ -97,6 +99,7 @@ body {
 }
 
 .App {
+  margin-top: 5vh;
   min-width: 80vw;
   border-radius: 10px;
   background-color: #fff;
