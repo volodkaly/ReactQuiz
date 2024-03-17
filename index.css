@@ -13,7 +13,7 @@ body {
 }
 
 .App {
-  min-width: 80vw;
+  width: 80vw;
   border-radius: 10px;
   background-color: #fff;
   position: relative;
