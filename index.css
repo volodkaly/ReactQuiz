@@ -21,12 +21,11 @@ body {
   box-shadow: 0 0 10px 10px rgba(255,255,255, 0.5);
 }
 .result {
-   width: 80vw;
+  width: 80vw;
   border-radius: 10px;
   background-color: #fff;
   position: relative;
   margin-top: 5vh;
-  box-shadow: 0 0 10px 10px rgba(255,255,255, 0.5);
 }
 
 button {
@@ -112,12 +111,11 @@ body {
   box-shadow: 0 0 10px 10px rgba(255,255,255, 0.5);
 }
 .result {
-   width: 80vw;
+  width: 80vw;
   border-radius: 10px;
   background-color: #fff;
   position: relative;
   margin-top: 5vh;
-  box-shadow: 0 0 10px 10px rgba(255,255,255, 0.5);
 }
 
 button {
