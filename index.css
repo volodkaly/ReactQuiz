@@ -18,6 +18,7 @@ body {
   background-color: #fff;
   position: relative;
   margin-top: 5vh;
+  box-shadow: 0 0 10px 10px rgba(255,255,255, 0.5);
 }
 .App .result {
   text-align: center;
@@ -109,6 +110,7 @@ body {
   border-radius: 10px;
   background-color: #fff;
   position: relative;
+  box-shadow: 0 0 10px 10px rgba(255,255,255, 0.5);
 }
 .App .result {
   text-align: center;
