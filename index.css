@@ -82,6 +82,11 @@ button {
   border: 2px solid rgba(0, 0, 0, 0.3);
 }
 
+.resultImage{
+max-width: 40vw;
+max-height: 40vh;
+}
+
 
 
 @media(min-width: 800px){
@@ -168,6 +173,12 @@ button {
 .App ul li:hover {
   border: 2px solid rgba(0, 0, 0, 0.3);
 }
+  
+.resultImage{
+max-width: 40vw;
+max-height: 40vh;
+}
+  
 }
 
 /*# sourceMappingURL=index.css.map */
