@@ -117,15 +117,18 @@
         const question = questions[step];
         console.log(question);
 
-        const onClickVariant = (index) => {
-          setStep(step + 1);
+      const onClickVariant = (index) => {
+        setTimeout(() => {
+          setStep((prevStep) => prevStep + 1); 
           if (index === question.correct) {
-            setCorrect(correct + 1);
-            setStyle("color: green;");
+            setCorrect((prevCorrect) => prevCorrect + 1);
+            setStyle("color: green;"); 
           } else {
-          setStyle("color: red;");
+            setStyle("color: red;"); 
           }
-        };
+        }, 1000); // Executes after a delay of 1000ms (1 second)
+      };
+        
 
         return (
           <div className="App">
