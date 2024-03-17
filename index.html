@@ -101,7 +101,7 @@
             <h1>{question.title}</h1>
             <ul>
               {question.variants.map((text, index) => (
-                <li style="background-color: silver;" onClick={() => onClickVariant(index)} key={text}>
+                <li onClick={() => onClickVariant(index)} key={text}>
                   {text}
                 </li>
               ))}
