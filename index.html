@@ -85,8 +85,11 @@
         );
       }
 
-      function Game({ step, question, onClickVariant }) {
+      function Game({ style, step, question, onClickVariant }) {
         const percentage = Math.round((100 * step) / questions.length);
+        
+
+       
         return (
           <>
             <div className="progress">
@@ -133,6 +136,7 @@
             </h2>
             {step !== questions.length ? (
               <Game
+                style={style}
                 step={step}
                 question={question}
                 onClickVariant={onClickVariant}
