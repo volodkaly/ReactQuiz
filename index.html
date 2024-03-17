@@ -35,17 +35,18 @@
         },
          {
           title: "console.log('Good'.replace(/\w+/,'|$&|'))",
-          variants: ["Good", "|Good|"],
+          variants: ["Good", "|Good|","|G|o|o|d|"],
           correct: 1,
         },
         {
-          title: "vw unit",
+          title: "console.log(eval('2**3'))",
           variants: [
-            "% of window width",
-            "% of monitor width",
-            "% of monitor height",
+            "2**3",
+            6,
+            8,
+            2,
           ],
-          correct: 0,
+          correct: 2,
         },
         {
           title: "console.log(NaN===NaN)",
@@ -53,19 +54,9 @@
           correct: 1,
         },
         {
-          title: "Plain JavaScript is used for",
-          variants: ["Frontend development", "Backend development"],
-          correct: 0,
-        },
-        {
           title: "'some text'.replace(/./g,'*')",
           variants: ["**** ****", "*********", "*"],
           correct: 1,
-        },
-        {
-          title: "'some text'.replace(/./,'*')",
-          variants: ["S*** ****", "*********", "*ome text"],
-          correct: 2,
         },
         {
           title: "'some text'.replace(/[a-z]/g,'*')",
