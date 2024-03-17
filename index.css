@@ -40,9 +40,7 @@ button {
 .App .result h2 {
   margin-bottom: 0;
 }
-.App .result img {
-  width: 150px;
-}
+
 .App .progress {
   margin-top: 2vh;
   height: 5vh;
@@ -80,8 +78,8 @@ button {
 }
 
 .resultImage{
-max-width: 40vw;
-max-height: 40vh;
+max-width: 30vw;
+max-height: 30vh;
 }
 
 
@@ -129,9 +127,7 @@ button {
 .App .result h2 {
   margin-bottom: 0;
 }
-.App .result img {
-  width: 150px;
-}
+
 .App .progress {
   margin-top: 2vh;
   height: 5vh;
@@ -169,8 +165,8 @@ button {
 }
   
 .resultImage{
-max-width: 40vw;
-max-height: 40vh;
+max-width: 30vw;
+max-height: 30vh;
 }
   
 }
