@@ -98,7 +98,7 @@
             <h1>{question.title}</h1>
             <ul>
               {question.variants.map((text, index) => (
-                <li onClick={() => onClickVariant(index)} key={text}>
+                <li className={style} onClick={() => onClickVariant(index)} key={text}>
                   {text}
                 </li>
               ))}
@@ -110,6 +110,7 @@
       function App() {
         const [step, setStep] = useState(0);
         const [correct, setCorrect] = useState(0);
+        const [style, setStyle] = useState("color:black;");
         const question = questions[step];
         console.log(question);
 
@@ -117,6 +118,9 @@
           setStep(step + 1);
           if (index === question.correct) {
             setCorrect(correct + 1);
+            setStyle("color: green;");
+          } else {
+          setStyle("color: red;");
           }
         };
 
