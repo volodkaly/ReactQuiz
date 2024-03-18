@@ -24,9 +24,9 @@
           correct: 1,
         },
         {
-          title: "console.log([...new Set([1,2,2,2])])",
-          variants: [[1, 2], "NaN", "undefined"],
-          correct: 0,
+          title: "console.log([...new Set([1,2,2,2])].length)",
+          variants: [null, 1, 2, 3, "undefined", NaN],
+          correct: 2,
         },
          {
           title: 'let a = 2; console.log(a.toString(2));',
