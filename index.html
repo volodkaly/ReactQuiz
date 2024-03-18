@@ -19,9 +19,14 @@
 
       const questions = [
         {
-          title: "typeof(NaN)",
+          title: "console.log(typeof(NaN))",
           variants: ["string", "number", "boolean"],
           correct: 1,
+        },
+        {
+          title: "console.log(JSON.stringify(NaN))",
+          variants: ["null", "number", "object", "string"],
+          correct: 0,
         },
         {
           title: "console.log([1,2,3][1])",
