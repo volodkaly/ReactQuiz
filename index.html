@@ -24,6 +24,17 @@
           correct: 1,
         },
         {
+          title: "console.log([...new Set([1,2,2,2])])",
+          variants: [[1, 2], "NaN", "undefined"],
+          correct: 0,
+        },
+         {
+          title: "let a = 2;
+          <br>console.log(a.toString(2));",
+          variants: ["2", "NaN", "undefined",10],
+          correct: 3,
+        },
+        {
           title: "console.log(JSON.stringify(NaN))",
           variants: ["null", "number", "object", "string"],
           correct: 0,
