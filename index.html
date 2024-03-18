@@ -23,6 +23,11 @@
           variants: ["string", "number", "boolean"],
           correct: 1,
         },
+         {
+          title: "console.log('10'>'2')",
+          variants: [true, false],
+          correct: 1,
+        },
         {
           title: "console.log([...new Set([1,2,2,2])].length)",
           variants: [null, 1, 2, 3, "undefined", NaN],
