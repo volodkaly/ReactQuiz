@@ -98,6 +98,16 @@
           variants: ['indexOf', 'includes', 'contains'],
           correct: 2,
         },
+        {
+          title: "const a = [1]; const b = [2]; const c = [3]; console.log(a+b-c);",
+          variants: ['0', 'NaN', '1', '9'],
+          correct: 3,
+        },
+        {
+          title: "console.log((true+true)%2);",
+          variants: ['0', '1', 'NaN', 'undefined'],
+          correct: 0,
+        },
       ];
 
       function Result({ correct, step }) {
